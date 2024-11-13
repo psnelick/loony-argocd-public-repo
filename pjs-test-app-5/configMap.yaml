@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pjs-test-config
+  namespace: default
+data:
+  test.properties: |
+    name=test
+    version=1
