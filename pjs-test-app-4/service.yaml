@@ -4,7 +4,7 @@ metadata:
   labels:
     app: nginx
   name: pjs-test-4-nginx-service
-  namespace: default
+  namespace: test
 spec:
   ports:
   - port: 80
